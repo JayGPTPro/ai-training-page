@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free AI Training: Turn Any Product Image into Lifestyle Videos</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+        .clickable-image {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .clickable-image:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-yellow-400 text-black px-3 py-1 rounded-full text-sm font-semibold">
+                        <i class="fas fa-gift mr-1"></i> FREE EXCLUSIVE TRAINING
+                    </div>
+                </div>
+                <div class="text-sm text-gray-600">
+                    <i class="fas fa-clock mr-1"></i> Limited Time Offer
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+                        Turn Any Product Image into <span class="text-yellow-300">Stunning Lifestyle Videos</span>
+                    </h1>
+                    <p class="text-xl mb-8 text-gray-100">
+                        Get exclusive access to my 40-minute presentation from the Top Dog Summit in Portugal. Learn the exact 4-step system I use to transform boring product photos into engaging lifestyle videos that convert.
+                    </p>
+                    <div class="flex flex-wrap gap-4 mb-8">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>Complete 40-minute training video</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>Full prompt pack included</span>
+                        </div>
+                    </div>
+                    <button onclick="scrollToForm()" class="btn-primary text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-opacity-90">
+                        <i class="fas fa-play mr-2"></i> Get Instant Access Now
+                    </button>
+                </div>
+                <div class="relative">
+                    <img src="https://page1.genspark.site/v1/base64_upload/c4603e174fb466746ccb1b14094e2f42" 
+                         alt="AI Video Creation" 
+                         class="rounded-lg shadow-2xl clickable-image w-full"
+                         onclick="scrollToForm()">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    The Complete 4-Step System
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    I'll show you exactly how to use AI tools to create professional lifestyle videos from any product image
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+                <div>
+                    <img src="https://page1.genspark.site/v1/base64_upload/1486be61e5f7b45cc305b3181d1de53b" 
+                         alt="4-Step Process" 
+                         class="rounded-lg shadow-lg clickable-image w-full"
+                         onclick="scrollToForm()">
+                </div>
+                <div class="space-y-6">
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold">1</div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900">Create Product Images</h3>
+                            <p class="text-gray-600">Use ChatGPT to generate perfect product images</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold">2</div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900">Generate Lifestyle Images</h3>
+                            <p class="text-gray-600">Transform products into lifestyle contexts</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold">3</div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900">Animate Your Images</h3>
+                            <p class="text-gray-600">Bring your images to life with Kling AI</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold">4</div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900">Edit & Finalize</h3>
+                            <p class="text-gray-600">Polish your video with CapCut</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    See The Results For Yourself
+                </h2>
+                <p class="text-xl text-gray-600">
+                    From simple product images to compelling Amazon listings
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                <div class="bg-white rounded-lg p-8 card-hover">
+                    <img src="https://page1.genspark.site/v1/base64_upload/5fe73651c908ab30703190c797036c59" 
+                         alt="Amazon Listing Example" 
+                         class="rounded-lg shadow-md clickable-image w-full mb-6"
+                         onclick="scrollToForm()">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Before vs After</h3>
+                    <p class="text-gray-600">Watch how a simple camping blanket transforms into a compelling lifestyle video that drives sales.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg p-8 card-hover">
+                    <img src="https://page1.genspark.site/v1/base64_upload/318273bb893c562e7d3ffa917ef1bd24" 
+                         alt="Top Dog Summit Presentation" 
+                         class="rounded-lg shadow-md clickable-image w-full mb-6"
+                         onclick="scrollToForm()">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Exclusive Summit Content</h3>
+                    <p class="text-gray-600">This presentation was only available to paid attendees of the Top Dog Summit. Now it's yours for free.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Jay Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="https://page1.genspark.site/v1/base64_upload/c6fa5b4c4f0c24b3c9e4de4c57d7b506" 
+                         alt="Jay Margaliot" 
+                         class="rounded-lg shadow-lg w-full max-w-md mx-auto">
+                </div>
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                        Meet Jay Margaliot
+                    </h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        AI Marketing Expert specializing in Amazon selling strategies. Jay has helped thousands of sellers transform their product listings using cutting-edge AI tools and proven marketing techniques.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-star text-yellow-500 mr-2"></i>
+                            <span class="text-gray-700">Featured speaker at Top Dog Summit 2023</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-users text-blue-500 mr-2"></i>
+                            <span class="text-gray-700">Helping Amazon sellers worldwide</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-robot text-purple-500 mr-2"></i>
+                            <span class="text-gray-700">AI marketing pioneer and innovator</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="signup-form" class="py-20 bg-gray-900 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Get Instant Access
+                </h2>
+                <p class="text-xl text-gray-300">
+                    Enter your details below to receive the training immediately
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-lg p-8 shadow-2xl">
+                <form id="lead-form" class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">
+                                First Name <span class="text-red-500">*</span>
+                            </label>
+                            <input type="text" 
+                                   id="firstName" 
+                                   name="firstName" 
+                                   required 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900">
+                        </div>
+                        <div>
+                            <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">
+                                Last Name <span class="text-gray-400">(Optional)</span>
+                            </label>
+                            <input type="text" 
+                                   id="lastName" 
+                                   name="lastName" 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-2">
+                            Email Address <span class="text-red-500">*</span>
+                        </label>
+                        <input type="email" 
+                               id="email" 
+                               name="email" 
+                               required 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900">
+                    </div>
+                    
+                    <div class="flex items-start space-x-3">
+                        <input type="checkbox" 
+                               id="consent" 
+                               name="consent" 
+                               checked 
+                               disabled 
+                               class="mt-1 h-4 w-4 text-blue-600 border-gray-300 rounded">
+                        <label for="consent" class="text-sm text-gray-600">
+                            I agree to receive emails with AI training content, tips, and exclusive offers from Jay Margaliot
+                        </label>
+                    </div>
+                    
+                    <button type="submit" 
+                            class="w-full btn-primary text-white py-4 px-8 rounded-lg font-semibold text-lg">
+                        <i class="fas fa-download mr-2"></i> Get My Free Training Now
+                    </button>
+                </form>
+            </div>
+            
+            <div class="text-center mt-8">
+                <p class="text-gray-400 text-sm">
+                    <i class="fas fa-lock mr-1"></i> Your information is secure and will never be shared
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p class="text-gray-400">
+                    © 2024 Jay Margaliot. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToForm() {
+            document.getElementById('signup-form').scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+
+        // Form submission handler
+        document.getElementById('lead-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Basic validation
+            const firstName = document.getElementById('firstName').value.trim();
+            const email = document.getElementById('email').value.trim();
+            
+            if (!firstName || !email) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+            
+            // Here you would integrate with Smoove.io
+            // For now, show success message
+            alert('Thank you! You will receive the training video and prompts in your email shortly.');
+            
+            // Reset form
+            this.reset();
+            document.getElementById('consent').checked = true; // Keep consent checked
+        });
+
+        // Add smooth hover effects
+        document.querySelectorAll('.clickable-image').forEach(img => {
+            img.addEventListener('mouseenter', function() {
+                this.style.transform = 'scale(1.02)';
+            });
+            
+            img.addEventListener('mouseleave', function() {
+                this.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDsnrSSQi%2Ff%2BJpBkZzIGK2W8UBE4oee1kj4xdWuuo2e2FOvO%2FScNwAdnGtyTiYPOxsT88wT7%2BVOOetZF%2BeQwRiSPhuyTpv%2BHAfblHStKIXXxjeeRhEhm098Rjy%2BiLF6NuJAk2%2ByH%2FdZQ%2B6mp7Lm08nB9WJKfNlIhQq2mLQLgPDE91rcRkCs7%2FpC6OWafb1railPK%2FVfWzwiXz5Hw1kobDgdknetBkCQjiU5nZVDaUVu4YXgOfefmncrIDLZu8X6rGwFZ%2BxTQvhVOQfppdP8UFzW2czwC%2BIYPkhFrCGu5%2FazlatP%2FzH377VBtxIw9itGK8AFCeW57geRBDl15iITYri9bqN%2FSuD0MvccSdiCSCN8OB3AKZ3cfeEjRlEvPs6b3gw9yMwHLBPW5SWqgjA0XVEhRVB02gYUp5MSOeNLGmPQt2B5XvCIEVfwviuEXKaNkCEmyIwcye7pQ8cU5Ah1C3%2BDDQ1C9ooRUXEBWH00v2bOW8eASz8jOz3PpafjZyOTW8bAvX5wD0Rsp%2B5Zpw8KtgRbI%3D";
+        window.__genspark_locale = "en-US";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDsnrSSQi/f+JpBkZzIGK2W8UBE4oee1kj4xdWuuo2e2FOvO/ScNwAdnGtyTiYPOxsT88wT7+VOOetZF+eQwRiSPhuyTpv+HAfblHStKIXXxjeeRhEhm098Rjy+iLF6NuJAk2+yH/dZQ+6mp7Lm08nB9WJKfNlIhQq2mLQLgPDE91rcRkCs7/pC6OWafb1railPK/VfWzwiXz5Hw1kobDgdknetBkCQjiU5nZVDaUVu4YXgOfefmncrIDLZu8X6rGwFZ+xTQvhVOQfppdP8UFzW2czwC+IYPkhFrCGu5/azlatP/zH377VBtxIw9itGK8AFCeW57geRBDl15iITYri9bqN/SuD0MvccSdiCSCN8OB3AKZ3cfeEjRlEvPs6b3gw9yMwHLBPW5SWqgjA0XVEhRVB02gYUp5MSOeNLGmPQt2B5XvCIEVfwviuEXKaNkCEmyIwcye7pQ8cU5Ah1C3+DDQ1C9ooRUXEBWH00v2bOW8eASz8jOz3PpafjZyOTW8bAvX5wD0Rsp+5Zpw8KtgRbI=";
+    </script>
+    
+    <script id="html_notice_dialog_script" src="https://www.genspark.ai/notice_dialog.js"></script>
+    
